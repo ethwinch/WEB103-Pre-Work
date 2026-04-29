@@ -24,7 +24,7 @@ function App() {
       <h1>CREATORVERSE</h1>
       {creators.map((creator) => (
         <div className="Cards" key={creator.id}>
-          <Card creator_name={creator.creator_name} url={creator.url} desc={creator.desc} imgURL={creator.imgURL} />
+          <Card id={creator.id} creator_name={creator.creator_name} url={creator.url} desc={creator.desc} imgURL={creator.imgURL} />
         </div>
       ))}
       {/* <Card name="Catra" /> */}
