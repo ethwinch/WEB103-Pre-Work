@@ -6,6 +6,8 @@ An app to create a list of your favorite content creators with the ability to ad
 
 Time spent: 3 hours
 
+<img src="https://i.postimg.cc/3xrCwGc4/WEB103-Pre-Work-Header.png" style="max-width: 100%;" />
+
 ## Required Features
 
 The following **required** functionality is completed:
