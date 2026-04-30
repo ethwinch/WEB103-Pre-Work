@@ -34,15 +34,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<a href="" target="_blank">Home Page</a>
+<a href="https://drive.google.com/file/d/1ZSpRTklaYGnsMHjXAbtxL9-ziOt4n3C1/view?usp=sharing" target="_blank">Home Page, View Post Details, & Update Post Details</a>
 <br />
-<a href="" target="_blank">View Post Details</a>
+<a href="https://drive.google.com/file/d/1SdX58qjyhO6VOOxM8dfaHI_xgfq_3So9/view?usp=sharing" target="_blank">Create Post</a>
 <br />
-<a href="" target="_blank">Create Post</a>
-<br />
-<a href="" target="_blank">Update Post Details</a>
-<br />
-<a href="" target="_blank">Delete Post</a>
+<a href="https://drive.google.com/file/d/1OBNjZty_q7eYJ92CLw-HY6gSN-vHZZSi/view?usp=sharing" target="_blank">Delete Post</a>
 <br />
 
 GIF created with ezGif
