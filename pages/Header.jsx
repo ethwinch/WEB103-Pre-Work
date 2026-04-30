@@ -5,7 +5,6 @@ const Header = () => {
         <>
         <nav>
             <Link to="/">Home</Link>
-            <Link to="/creator_gallery">Creator Gallery</Link>
             <Link to="/add_creator">Add Creator</Link>
         </nav>
         <Outlet />

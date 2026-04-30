@@ -1,6 +1,8 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
+// import Card from '../components/Card.jsx'
+
 import supabase from "../client";
 
 const CreatorDetails = () => {
@@ -29,7 +31,10 @@ const CreatorDetails = () => {
             <img id="img" src={creatorDetails.imgURL} />
         </div>
 
-        <Link to="/">Return Home</Link>
+        {/* <Card id={creatorDetails.id} creator_name={creatorDetails.creator_name} url={creatorDetails.url} desc={creatorDetails.desc} imgURL={creatorDetails.imgURL} /> */}
+
+        <Link to={`/edit_creator/${creator}`} className="btn">Edit Creator Info</Link>
+        <Link to="/" className="btn">Return Home</Link>
         </>
     )
 }

@@ -3,6 +3,8 @@ import './App.css'
 
 import Card from './components/Card.jsx'
 
+import { Link } from "react-router-dom"
+
 // import { Link } from "react-router-dom";
 import supabase from "./client.js"
 
@@ -25,6 +27,7 @@ function App() {
       {creators.map((creator) => (
         <div className="Cards" key={creator.id}>
           <Card id={creator.id} creator_name={creator.creator_name} url={creator.url} desc={creator.desc} imgURL={creator.imgURL} />
+          <Link to={`/view/${creator.id}`} className="btn">Read More</Link>
         </div>
       ))}
       {/* <Card name="Catra" /> */}

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 
 export default function Card(creator) {
     return (
@@ -9,8 +8,6 @@ export default function Card(creator) {
             <p id="social">{creator.url}</p>
             <p id="desc">{creator.desc}</p>
             <img id="img" src={creator.imgURL} />
-
-            <Link to={`/view/${creator.id}`} id="btn">Read More</Link>
         </div>
     )
 }
