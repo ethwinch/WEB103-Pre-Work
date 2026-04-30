@@ -11,7 +11,7 @@ Time spent: 3 hours
 The following **required** functionality is completed:
 
 - [X] **A logical component structure in React is used to create the frontend of the app**
-- [ ] **At least five content creators are displayed on the homepage of the app**
+- [X] **At least five content creators are displayed on the homepage of the app**
 - [X] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
 - [X] **API calls use the async/await design pattern via Axios or fetch()**
 - [X] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
@@ -34,7 +34,16 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="" target="_blank">Home Page</a>
+<br />
+<a href="" target="_blank">View Post Details</a>
+<br />
+<a href="" target="_blank">Create Post</a>
+<br />
+<a href="" target="_blank">Update Post Details</a>
+<br />
+<a href="" target="_blank">Delete Post</a>
+<br />
 
 GIF created with ezGif
 
